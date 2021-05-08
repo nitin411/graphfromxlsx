@@ -100,5 +100,5 @@ def plot(data):
 
 if __name__ == '__main__':
     company_name = [ 'reliance', 'rain industries']
-    data = load_xlsx('/Users/nshrivastava/Downloads',company_name, 'profit & loss', 'sales')
+    data = load_xlsx('/Users/nshrivastava/Downloads', company_name, 'profit & loss', 'sales')
     plot(data)
