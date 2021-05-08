@@ -100,5 +100,7 @@ def plot(data):
 
 if __name__ == '__main__':
     company_name = [ 'reliance', 'rain industries']
-    data = load_xlsx('/Users/nshrivastava/Downloads', company_name, 'profit & loss', 'sales')
+    path = "<add_the_directory_path_here"
+    path='/Users/nshrivastava/Downloads'
+    data = load_xlsx(path, company_name, 'profit & loss', 'sales')
     plot(data)
